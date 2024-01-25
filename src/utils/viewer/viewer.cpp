@@ -2239,7 +2239,7 @@ void Viewer::keyPressEvent(KeyEvent& event) {
       break;
     case KeyEvent::Key::Nine:
       if (simulator_->getPathFinder()->isLoaded()) {
-        const auto position =
+        const Mn::Vector3 position =
             simulator_->getPathFinder()->getRandomNavigablePoint();
         agentBodyNode_->setTranslation(Mn::Vector3(position));
       }
