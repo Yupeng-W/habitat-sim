@@ -299,6 +299,8 @@ set(
   metadata/attributes/SemanticAttributes.cpp
   metadata/attributes/StageAttributes.h
   metadata/attributes/StageAttributes.cpp
+  metadata/diagnostics/DatasetDiagnosticsTool.h
+  metadata/diagnostics/DatasetDiagnosticsTool.cpp
   metadata/managers/AbstractAttributesManager.h
   metadata/managers/AbstractObjectAttributesManager.h
   metadata/managers/AOAttributesManager.h
